@@ -1,85 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SV Printers & Ads</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 5px;
-        }
-        h2 {
-            color: #777;
-            margin-top: 0;
-        }
-        .services {
-            text-align: left;
-            margin-top: 20px;
-        }
-        .services ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .services li {
-            padding: 5px 0;
-        }
-        .contact {
-            margin-top: 25px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .address {
-            margin-top: 15px;
-            color: #555;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SV Printers & Ads</title>
+
+<style>
+body {
+    background: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Flyer Container */
+.flyer {
+    width: 300px;
+    background: #0b4d45;
+    color: white;
+    border: 5px solid #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subtitle {
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Section */
+.section-title {
+    margin-top: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Services */
+.services {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.services li {
+    list-style: none;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.services li::before {
+    content: "★ ";
+    color: yellow;
+}
+
+/* Highlight Box */
+.highlight {
+    background: #e65c00;
+    padding: 5px;
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+/* Contact */
+.contact {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+.footer {
+    font-size: 12px;
+    margin-top: 10px;
+}
+</style>
 </head>
+
 <body>
 
-<div class="container">
-    <h1>SV Printers & Ads</h1>
-    <h2>Workaholic</h2>
-    <p><strong>Signages | Digital Printing</strong></p>
+<div class="flyer">
 
-    <div class="services">
-        <h3>Our Services:</h3>
-        <ul>
-            <li>LED Boards</li>
-            <li>Neon Sign Boards</li>
-            <li>Flex Front Lit</li>
-            <li>Back Lit Boards</li>
-            <li>Floor Boards</li>
-            <li>Poll Stickers</li>
-            <li>Auto Stickers</li>
-            <li>Calendars</li>
-            <li>More & Many Works</li>
-        </ul>
+    <div class="title">S.V</div>
+    <div class="title">PRINTERS & ADS</div>
+
+    <div class="subtitle">WORKAHOLIC</div>
+
+    <div class="tagline">
+        Signages | Digital Printing
+    </div>
+
+    <div class="section-title">OUR SERVICES :</div>
+
+    <ul class="services">
+        <li>Led Boards</li>
+        <li>Neon Sign Boards</li>
+        <li>Flex Front Lit.</li>
+        <li>Back Lit. Boards</li>
+        <li>Floor Boards</li>
+        <li>Poll Stickers</li>
+        <li>Auto Stickers</li>
+        <li>Calendars &</li>
+        <li>More & Many More Works</li>
+    </ul>
+
+    <div class="highlight">
+        for more information contact 24/7 support
     </div>
 
     <div class="contact">
-        📞 9849486258<br>
-        📞 9949858085
+        98 49 48 62 58<br>
+        99 49 85 80 85
     </div>
 
-    <div class="address">
+    <div class="footer">
         Opp. SVC Eshwar Theater, Attapur
     </div>
+
 </div>
 
 </body>
